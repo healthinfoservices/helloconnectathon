@@ -1,0 +1,27 @@
+# After you have cloned this template,  update the following 5 properties  
+id: template.fhir.ig                                        # a unique identifier for this IG - you will need to update ig.ini with
+canonical: https://healthinfoservices.site/template-fhir-ig # the canonical URL for this IG ideally with a domain you control
+name: TemplateFHIRIG                                        # computer-readable name without spaces
+title: Template Implementation Guide - AU                   # title of the IG
+description: Template FHIR Implementation Guide for Australian Context # this will show as the description of the IG
+
+# update these as required
+status: draft # draft | active | retired | unknown
+version: 0.0.2
+copyrightYear: 2025
+releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+license: MIT
+
+# this is where you can change the menu structure of the IG
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
+
+# leave these settings as is unless you know what you're doing
+fhirVersion: 4.0.1
+dependencies:
+  hl7.fhir.au.core: 1.0.0
+  hl7.fhir.au.base: 5.0.0
+jurisdiction: urn:iso:std:iso:3166#AUS "Australia"
+instanceOptions:
+  manualSliceOrdering: true
