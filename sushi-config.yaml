@@ -1,13 +1,13 @@
 # After you have cloned this template,  update the following 5 properties  
-id: template.fhir.ig                                        # a unique identifier for this IG - you will need to update ig.ini with
-canonical: https://healthinfoservices.site/template-fhir-ig # the canonical URL for this IG ideally with a domain you control
-name: TemplateFHIRIG                                        # computer-readable name without spaces
-title: Template Implementation Guide - AU                   # title of the IG
-description: Template FHIR Implementation Guide for Australian Context # this will show as the description of the IG
+id: helloconnectathon.ig                                        # a unique identifier for this IG - you will need to update ig.ini with
+canonical: https://healthinfoservices.site/helloconnectathon # the canonical URL for this IG ideally with a domain you control
+name: HelloConnectathonIG                                        # computer-readable name without spaces
+title: Connectathon Template Implementation Guide - AU                   # title of the IG
+description: Template FHIR Implementation Guide for EFIQ Connectathon with Australian Context # this will show as the description of the IG
 
 # update these as required
 status: draft # draft | active | retired | unknown
-version: 0.0.2
+version: 0.0.1
 copyrightYear: 2025
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 license: MIT
