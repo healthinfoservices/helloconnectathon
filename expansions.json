@@ -1,0 +1,205 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "97721245-2b23-433a-9f26-2f96cdf47c68",
+  "meta" : {
+    "lastUpdated" : "2025-09-25T06:38:51.649+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://healthinfoservices.site/helloconnectathon/ValueSet/hi-diagnosis-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-195528001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/195528001\">195528001</a></td><td>http://snomed.info/sct</td><td>Acute rheumatic fever</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-38933006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/38933006\">38933006</a></td><td>http://snomed.info/sct</td><td>Recurrent rheumatic fever</td></tr></table></div>"
+      },
+      "url" : "https://healthinfoservices.site/helloconnectathon/ValueSet/hi-diagnosis-vs",
+      "version" : "0.0.1",
+      "name" : "HIDiagnosisCodeVS",
+      "title" : "Acute Rheumatic Fever and Rheumatic Heart Disease Conditions",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2025-09-25T06:37:58+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "AUS",
+          "display" : "Australia"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:45ea2ac9-94f4-41d8-ad36-d4fafef6eb03",
+        "timestamp" : "2025-09-25T06:40:12+00:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "195528001",
+          "display" : "Acute rheumatic fever"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "38933006",
+          "display" : "Recurrent rheumatic fever"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://healthinfoservices.site/helloconnectathon/ValueSet/hi-medication-code-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+      },
+      "url" : "https://healthinfoservices.site/helloconnectathon/ValueSet/hi-medication-code-vs",
+      "version" : "0.0.1",
+      "name" : "HIMedicationCodeVS",
+      "title" : "Medication Codes for Acute Rheumatic Fever",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2025-09-25T06:37:58+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "AUS",
+          "display" : "Australia"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:828e9bd9-06cd-49bc-bdb6-ef8e615b22db",
+        "timestamp" : "2025-09-25T06:40:13+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://healthinfoservices.site/helloconnectathon/ValueSet/hi-severity-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 5 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-260413007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/260413007\">260413007</a></td><td>http://snomed.info/sct</td><td>None</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-255604002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/255604002\">255604002</a></td><td>http://snomed.info/sct</td><td>Mild</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-6736007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/6736007\">6736007</a></td><td>http://snomed.info/sct</td><td>Moderate</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-24484000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/24484000\">24484000</a></td><td>http://snomed.info/sct</td><td>Severe</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-261665006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/261665006\">261665006</a></td><td>http://snomed.info/sct</td><td>Unknown</td></tr></table></div>"
+      },
+      "url" : "https://healthinfoservices.site/helloconnectathon/ValueSet/hi-severity-vs",
+      "version" : "0.0.1",
+      "name" : "HISeverityVS",
+      "title" : "Acute Rheumatic Fever Condition Severity",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2025-09-25T06:37:58+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "AUS",
+          "display" : "Australia"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:1fc7d12b-ad28-433b-894d-ffa567bdb0ba",
+        "timestamp" : "2025-09-25T06:40:13+00:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "260413007",
+          "display" : "None"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "255604002",
+          "display" : "Mild"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "6736007",
+          "display" : "Moderate"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "24484000",
+          "display" : "Severe"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "261665006",
+          "display" : "Unknown"
+        }]
+      }
+    }
+  }]
+}

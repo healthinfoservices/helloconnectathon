@@ -1,0 +1,93 @@
+[
+  {
+    "id" : "helloconnectathon.ig",
+    "type" : "ImplementationGuide",
+    "url" : "https://healthinfoservices.site/helloconnectathon/ImplementationGuide/helloconnectathon.ig",
+    "version" : "0.0.1",
+    "name" : "HelloConnectathonIG"
+  },
+  {
+    "id" : "HIAllergy",
+    "type" : "StructureDefinition",
+    "url" : "https://healthinfoservices.site/helloconnectathon/StructureDefinition/HIAllergy",
+    "version" : "0.0.1",
+    "name" : "HIAllergy"
+  },
+  {
+    "id" : "HICarePlan",
+    "type" : "StructureDefinition",
+    "url" : "https://healthinfoservices.site/helloconnectathon/StructureDefinition/HICarePlan",
+    "version" : "0.0.1",
+    "name" : "HICarePlan"
+  },
+  {
+    "id" : "HICondition",
+    "type" : "StructureDefinition",
+    "url" : "https://healthinfoservices.site/helloconnectathon/StructureDefinition/HICondition",
+    "version" : "0.0.1",
+    "name" : "HICondition"
+  },
+  {
+    "id" : "HIMedicationRequest",
+    "type" : "StructureDefinition",
+    "url" : "https://healthinfoservices.site/helloconnectathon/StructureDefinition/HIMedicationRequest",
+    "version" : "0.0.1",
+    "name" : "HIMedicationRequest"
+  },
+  {
+    "id" : "HIMedicationStatement",
+    "type" : "StructureDefinition",
+    "url" : "https://healthinfoservices.site/helloconnectathon/StructureDefinition/HIMedicationStatement",
+    "version" : "0.0.1",
+    "name" : "HIMedicationStatement"
+  },
+  {
+    "id" : "HIOrganisation",
+    "type" : "StructureDefinition",
+    "url" : "https://healthinfoservices.site/helloconnectathon/StructureDefinition/HIOrganisation",
+    "version" : "0.0.1",
+    "name" : "HIOrganisation"
+  },
+  {
+    "id" : "HIPatient",
+    "type" : "StructureDefinition",
+    "url" : "https://healthinfoservices.site/helloconnectathon/StructureDefinition/HIPatient",
+    "version" : "0.0.1",
+    "name" : "HIPatient"
+  },
+  {
+    "id" : "HIPractitioner",
+    "type" : "StructureDefinition",
+    "url" : "https://healthinfoservices.site/helloconnectathon/StructureDefinition/HIPractitioner",
+    "version" : "0.0.1",
+    "name" : "HIPractitioner"
+  },
+  {
+    "id" : "HIPractitionerRole",
+    "type" : "StructureDefinition",
+    "url" : "https://healthinfoservices.site/helloconnectathon/StructureDefinition/HIPractitionerRole",
+    "version" : "0.0.1",
+    "name" : "HIPractitionerRole"
+  },
+  {
+    "id" : "hi-diagnosis-vs",
+    "type" : "ValueSet",
+    "url" : "https://healthinfoservices.site/helloconnectathon/ValueSet/hi-diagnosis-vs",
+    "version" : "0.0.1",
+    "name" : "HIDiagnosisCodeVS"
+  },
+  {
+    "id" : "hi-medication-code-vs",
+    "type" : "ValueSet",
+    "url" : "https://healthinfoservices.site/helloconnectathon/ValueSet/hi-medication-code-vs",
+    "version" : "0.0.1",
+    "name" : "HIMedicationCodeVS"
+  },
+  {
+    "id" : "hi-severity-vs",
+    "type" : "ValueSet",
+    "url" : "https://healthinfoservices.site/helloconnectathon/ValueSet/hi-severity-vs",
+    "version" : "0.0.1",
+    "name" : "HISeverityVS"
+  }
+]
